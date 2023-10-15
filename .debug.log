@@ -1,0 +1,336 @@
+Open On-Chip Debugger 0.11.0+dev-00584-g103b1d68d (2022-02-26-11:51)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+Info : The selected transport took over low-level target control. The results might differ compared to plain JTAG/SWD
+srst_only separate srst_nogate srst_open_drain connect_deassert_srst
+
+Info : Listening on port 6666 for tcl connections
+Info : Listening on port 4444 for telnet connections
+Info : clock speed 2000 kHz
+Info : STLINK V2J37M26 (API v2) VID:PID 0483:374B
+Info : Target voltage: 2.885933
+Info : stm32f4x.cpu: Cortex-M4 r0p1 processor detected
+Info : stm32f4x.cpu: target has 6 breakpoints, 4 watchpoints
+Info : starting gdb server for stm32f4x.cpu on 3333
+Info : Listening on port 3333 for gdb connections
+Info : accepting 'gdb' connection on tcp/3333
+Info : device id = 0x100f6413
+Info : flash size = 1024 kbytes
+Info : flash size = 512 bytes
+Warn : Prefer GDB command "target extended-remote :3333" instead of "target remote :3333"
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x08016148 msp: 0x20020000
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x08016148 msp: 0x20020000
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x08016148 msp: 0x20020000
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x08016148 msp: 0x20020000
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x08016148 msp: 0x20020000
+Info : halted: PC: 0x0800095c
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x08016148 msp: 0x20020000
+Info : halted: PC: 0x0800095c
+Warn : keep_alive() was not invoked in the 1000 ms timelimit. GDB alive packet not sent! (43677534 ms). Workaround: increase "set remotetimeout" in GDB
+Error: jtag status contains invalid mode value - communication failure
+Warn : target stm32f4x.cpu is not halted (gdb fileio)
+Polling target stm32f4x.cpu failed, trying to reexamine
+Examination failed, GDB will be halted. Polling again in 100ms
+Info : Previous state query failed, trying to reconnect
+Polling target stm32f4x.cpu failed, trying to reexamine
+Info : stm32f4x.cpu: Cortex-M4 r0p1 processor detected
+Info : stm32f4x.cpu: target has 6 breakpoints, 4 watchpoints
+Warn : keep_alive() was not invoked in the 1000 ms timelimit. GDB alive packet not sent! (1309 ms). Workaround: increase "set remotetimeout" in GDB
+Warn : target not halted
+Info : target stm32f4x.cpu was not halted when step was requested
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : The target is not running when halt was requested, stopping GDB.
+Info : The target is not running when halt was requested, stopping GDB.
+Info : halted: PC: 0x08000246
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x08016148 msp: 0x20020000
+Info : halted: PC: 0x0800095c
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x08016148 msp: 0x20020000
+Info : halted: PC: 0x0800095c
+Info : halted: PC: 0x0800095e
+Info : halted: PC: 0x08000960
+Info : halted: PC: 0x08000962
+Info : halted: PC: 0x08000964
+Info : halted: PC: 0x08000966
+Info : halted: PC: 0x0800ef32
+Info : halted: PC: 0x0800096c
+Info : halted: PC: 0x0800096e
+Info : halted: PC: 0x08000970
+Info : halted: PC: 0x08000972
+Info : halted: PC: 0x08015a44
+Info : halted: PC: 0x08015a46
+Info : halted: PC: 0x08015a48
+Info : halted: PC: 0x08015a4a
+Info : halted: PC: 0x08015a4c
+Info : halted: PC: 0x080141aa
+Info : halted: PC: 0x080141ac
+Info : halted: PC: 0x080141ae
+Info : halted: PC: 0x080141b0
+Info : halted: PC: 0x080141b2
+Info : halted: PC: 0x080141b8
+Info : halted: PC: 0x080141ba
+Info : halted: PC: 0x080141bc
+Info : halted: PC: 0x080141be
+Info : halted: PC: 0x080141c0
+Info : halted: PC: 0x08000e4a
+Info : halted: PC: 0x08000e4c
+Info : halted: PC: 0x08000e4e
+Info : halted: PC: 0x08000e50
+Info : halted: PC: 0x08005448
+Info : halted: PC: 0x0800544a
+Info : halted: PC: 0x0800544c
+Info : halted: PC: 0x0800544e
+Info : halted: PC: 0x08005450
+Info : halted: PC: 0x08004252
+Info : halted: PC: 0x08004254
+Info : halted: PC: 0x08004258
+Info : halted: PC: 0x0800425a
+Info : halted: PC: 0x08004276
+Info : halted: PC: 0x08004278
+Info : halted: PC: 0x0800427c
+Info : halted: PC: 0x0800427e
+Info : halted: PC: 0x08004292
+Info : halted: PC: 0x08004294
+Info : halted: PC: 0x08004298
+Info : halted: PC: 0x0800429a
+Info : halted: PC: 0x080042fe
+Info : halted: PC: 0x08004300
+Info : halted: PC: 0x08004304
+Info : halted: PC: 0x08004306
+Info : halted: PC: 0x0800431a
+Info : halted: PC: 0x0800431c
+Info : halted: PC: 0x08004320
+Info : halted: PC: 0x08004322
+Info : halted: PC: 0x08004338
+Info : halted: PC: 0x0800433a
+Info : halted: PC: 0x0800433c
+Info : halted: PC: 0x0800433e
+Info : halted: PC: 0x08004340
+Info : halted: PC: 0x08004342
+Info : halted: PC: 0x08004344
+Info : halted: PC: 0x08004346
+Info : halted: PC: 0x08004348
+Info : halted: PC: 0x0800434c
+Info : halted: PC: 0x0800434e
+Info : halted: PC: 0x08004350
+Info : halted: PC: 0x08004352
+Info : halted: PC: 0x08012f1c
+Info : halted: PC: 0x08004358
+Info : halted: PC: 0x0800435c
+Info : halted: PC: 0x08004360
+Info : halted: PC: 0x0800451a
+Info : halted: PC: 0x0800451c
+Info : halted: PC: 0x0800451e
+Info : halted: PC: 0x08004520
+Info : halted: PC: 0x08012f1c
+Info : halted: PC: 0x08004526
+Info : halted: PC: 0x0800452a
+Info : halted: PC: 0x0800452e
+Info : halted: PC: 0x08004576
+Info : halted: PC: 0x08004578
+Info : halted: PC: 0x0800457a
+Info : halted: PC: 0x0800457c
+Info : halted: PC: 0x08012f1c
+Info : halted: PC: 0x08004582
+Info : halted: PC: 0x08004586
+Info : halted: PC: 0x0800458a
+Info : halted: PC: 0x080045b2
+Info : halted: PC: 0x080045b4
+Info : halted: PC: 0x080045b6
+Info : halted: PC: 0x080045b8
+Info : halted: PC: 0x08012f1c
+Info : halted: PC: 0x080045be
+Info : halted: PC: 0x080045c2
+Info : halted: PC: 0x080045c6
+Info : halted: PC: 0x08004738
+Info : halted: PC: 0x0800473a
+Info : halted: PC: 0x0800473c
+Info : halted: PC: 0x0800473e
+Info : halted: PC: 0x08012f1c
+Info : halted: PC: 0x08004744
+Info : halted: PC: 0x08004748
+Info : halted: PC: 0x0800474c
+Info : halted: PC: 0x08004798
+Info : halted: PC: 0x0800479a
+Info : halted: PC: 0x0800479c
+Info : halted: PC: 0x0800479e
+Info : halted: PC: 0x08012f1c
+Info : halted: PC: 0x080047a4
+Info : halted: PC: 0x080047a8
+Info : halted: PC: 0x080047aa
+Info : halted: PC: 0x080047c2
+Info : halted: PC: 0x080047c4
+Info : halted: PC: 0x080047c6
+Info : halted: PC: 0x080047c8
+Info : halted: PC: 0x08012f1c
+Info : halted: PC: 0x080047ce
+Info : halted: PC: 0x080047d2
+Info : halted: PC: 0x080047d4
+Info : halted: PC: 0x0800481c
+Info : halted: PC: 0x0800481e
+Info : halted: PC: 0x08004820
+Info : halted: PC: 0x08004822
+Info : halted: PC: 0x08012f1c
+Info : halted: PC: 0x08004828
+Info : halted: PC: 0x0800482c
+Info : halted: PC: 0x08004830
+Info : halted: PC: 0x080048aa
+Info : halted: PC: 0x080048ac
+Info : halted: PC: 0x080048ae
+Info : halted: PC: 0x080048b0
+Info : halted: PC: 0x08012f1c
+Info : halted: PC: 0x080048b6
+Info : halted: PC: 0x080048ba
+Info : halted: PC: 0x080048be
+Info : halted: PC: 0x0800496c
+Info : halted: PC: 0x0800496e
+Info : halted: PC: 0x08004970
+Info : halted: PC: 0x08004972
+Info : halted: PC: 0x08012f1c
+Info : halted: PC: 0x08004978
+Info : halted: PC: 0x0800497c
+Info : halted: PC: 0x08004980
+Info : halted: PC: 0x08004998
+Info : halted: PC: 0x0800499a
+Info : halted: PC: 0x0800499c
+Info : halted: PC: 0x0800499e
+Info : halted: PC: 0x08012f1c
+Info : halted: PC: 0x080049a4
+Info : halted: PC: 0x080049a8
+Info : halted: PC: 0x080049aa
+Info : halted: PC: 0x080049d8
+Info : halted: PC: 0x080049da
+Info : halted: PC: 0x080049dc
+Info : halted: PC: 0x080003be
+Info : halted: PC: 0x080003c0
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : halted: PC: 0x08000244
+Info : halted: PC: 0x08000246
+Info : The target is not running when halt was requested, stopping GDB.
+Info : The target is not running when halt was requested, stopping GDB.
+Info : halted: PC: 0x08000244
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x08016148 msp: 0x20020000
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x08016148 msp: 0x20020000
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x08016148 msp: 0x20020000
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x08016148 msp: 0x20020000
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x08016148 msp: 0x20020000
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x08016148 msp: 0x20020000
+Info : dropped 'gdb' connection
+shutdown command invoked
